@@ -12,7 +12,9 @@ export type PublicTask = Pick<Task, "id" | "title" | "completed">;
 export type TaskStatusFilter = "all" | "open" | "done";
 
 export function filterTasks(tasks: Task[], filter: TaskStatusFilter): Task[] {
-  return tasks.filter((task) =>
-    filter === "all" || (filter === "open" ? !task.completed : task.completed),
+  return tasks.filter(
+    (task) =>
+      filter === "all" ||
+      (filter === "open" ? !task.completed : task.completed),
   );
 }
