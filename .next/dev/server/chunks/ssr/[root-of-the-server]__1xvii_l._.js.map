@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projetos_GitHub/React_estudo/react-nextjs-estudo/src/app/page.tsx"],"sourcesContent":["\r\n// import { DashboardPageView } from \"../features/dashboard/pages/DashboardPageView\";\r\nimport HomePageView from \"@/features/home/pages/HomePageView\";\r\n\r\nexport default function DashBoardPage() {\r\n  return (\r\n    <>\r\n      <HomePageView />\r\n      {/* <DashboardPageView /> */}\r\n    </>\r\n  );\r\n}\r\n"],"names":["DashBoardPage"],"mappings":";;;;;AACA,qFAAqF;AACrF;;;AAEe,SAASA;IACtB,qBACE;kBACE,cAAA,8OAAC,4JAAY;;;;;;;;;;AAInB"}},
-    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projetos_GitHub/React_estudo/react-nextjs-estudo/src/features/home/pages/HomePageView.tsx"],"sourcesContent":["export default function HomePageView() {\r\n  return <h1>Testes</h1>;\r\n}\r\n"],"names":["HomePageView"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBAAO,8OAAC;kBAAG;;;;;;AACb"}}]
-}

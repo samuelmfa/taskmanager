@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/index.css"],"sourcesContent":[":root {\n  font-family: \"DM Sans\", \"Segoe UI\", sans-serif;\n  line-height: 1.5;\n  font-weight: 400;\n\n  color: #193d32;\n  background-color: #f4f1e9;\n\n  font-synthesis: none;\n  text-rendering: optimizeLegibility;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\na {\n  font-weight: 500;\n  color: inherit;\n  text-decoration: inherit;\n}\n\nbody {\n  margin: 0;\n  min-width: 320px;\n  min-height: 100vh;\n}\nbutton,\ninput,\nselect {\n  font: inherit;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;AAcA;;;;;;;AAMA;;;;;;AAKA"}}]
-}

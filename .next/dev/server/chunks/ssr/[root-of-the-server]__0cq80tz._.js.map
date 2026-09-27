@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projetos_GitHub/React_estudo/react-nextjs-estudo/src/shared/components/PageWrap.tsx"],"sourcesContent":["import type { ReactNode } from \"react\";\r\n\r\ntype PageWrapProps = {\r\n  children: ReactNode;\r\n  id?: string;\r\n  className?: string;\r\n};\r\n\r\nexport function PageWrap({ children, id, className = \"\" }: PageWrapProps) {\r\n  return (\r\n    <div className={`content-wrap ${className}`.trim()} id={id}>\r\n      {children}\r\n    </div>\r\n  );\r\n}\r\n"],"names":["PageWrap","children","id","className","trim"],"mappings":";;;;;;AAQO,SAASA,SAAS,EAAEC,QAAQ,EAAEC,EAAE,EAAEC,YAAY,EAAE,EAAiB;IACtE,qBACE,8OAAC;QAAIA,WAAW,CAAC,aAAa,EAAEA,WAAW,CAACC,IAAI;QAAIF,IAAIA;kBACrDD;;;;;;AAGP"}}]
-}

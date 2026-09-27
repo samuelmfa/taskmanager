@@ -514,6 +514,33 @@ h2 {
 .visual-note p { margin: 0; color: #849087; font-size: 9px; line-height: 1.5; }
 .visual-note strong { color: var(--forest); }
 .visual-index { position: absolute; right: 2%; bottom: -21px; color: #839087; font-size: 8px; letter-spacing: 0.15em; }
+.landing-public-invite {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 48px max(7.2%, calc((100% - 1164px) / 2));
+  color: var(--paper-bright);
+  background: var(--forest);
+}
+.landing-public-kicker { color: #e7bc63; font-size: 9px; font-weight: 700; }
+.landing-public-invite h2 { max-width: 570px; margin: 11px 0 8px; font: 600 30px/1.15 "Space Grotesk", sans-serif; }
+.landing-public-invite p { margin: 0; color: #d0d9d2; font-size: 12px; }
+.landing-public-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 15px;
+  min-height: 48px;
+  padding: 0 17px;
+  color: var(--forest-deep);
+  border-radius: 4px;
+  background: var(--sun);
+  font-size: 11px;
+  font-weight: 700;
+  transition: background 160ms ease, transform 160ms ease;
+}
+.landing-public-link:hover { color: var(--forest-deep); background: #f0ca78; transform: translateY(-2px); }
 .landing-footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; max-width: 1360px; margin: 0 auto; padding: 25px 7.2%; border-top: 1px solid var(--soft-line); }
 .landing-footer > span { color: #859087; font-size: 8px; font-weight: 700; letter-spacing: 0.1em; }
 .landing-footer p { display: flex; align-items: center; gap: 8px; margin: 0; color: var(--forest); font-size: 10px; font-weight: 600; }
@@ -618,6 +645,8 @@ h2 {
   .landing-copy > p { max-width: 520px; }
   .landing-visual { width: min(100%, 590px); min-height: 450px; margin: 0 auto; }
   .visual-photo { right: 3%; width: 74%; height: 390px; }
+  .landing-public-invite { align-items: flex-start; flex-direction: column; padding: 38px 25px; }
+  .landing-public-invite h2 { font-size: 27px; }
   .landing-footer { flex-wrap: wrap; justify-content: flex-start; padding: 22px 25px; }
   .landing-footer > span { flex-basis: 100%; }
   .tasks-heading { align-items: flex-start; flex-direction: column; }
