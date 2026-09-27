@@ -105,7 +105,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\Projetos_GitHub\\React_estudo\\react-nextjs-estudo",
+    "outputFileTracingRoot": "D:\\Projetos_GitHub\\taskmanager",
     "enablePrerenderSourceMaps": true,
     "cacheComponents": false,
     "cacheLife": {
@@ -320,9 +320,9 @@ self.__SERVER_FILES_MANIFEST={
     "htmlLimitedBots": "[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight",
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
-    "repoRoot": "D:\\Projetos_GitHub\\React_estudo\\react-nextjs-estudo",
+    "repoRoot": "D:\\Projetos_GitHub\\taskmanager",
     "turbopack": {
-      "root": "D:\\Projetos_GitHub\\React_estudo\\react-nextjs-estudo"
+      "root": "D:\\Projetos_GitHub\\taskmanager"
     },
     "distDirRoot": ".next",
     "_originalRewrites": {
@@ -336,7 +336,7 @@ self.__SERVER_FILES_MANIFEST={
       "fallback": []
     }
   },
-  "appDir": "D:\\Projetos_GitHub\\React_estudo\\react-nextjs-estudo",
+  "appDir": "D:\\Projetos_GitHub\\taskmanager",
   "relativeAppDir": "",
   "files": [
     ".next\\package.json",
