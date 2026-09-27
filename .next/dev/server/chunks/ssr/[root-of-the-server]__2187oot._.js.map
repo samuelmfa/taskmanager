@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projetos_GitHub/React_estudo/react-nextjs-estudo/src/app/settings/page.tsx"],"sourcesContent":["import SettingsPageView from \"@/features/settings/pages/SettingsPage\";\r\n\r\nexport default function SettingsPage() {\r\n  return <SettingsPageView />;\r\n}\r\n"],"names":["SettingsPage"],"mappings":";;;;;AAAA;;;AAEe,SAASA;IACtB,qBAAO,8OAAC,gKAAgB;;;;;AAC1B"}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projetos_GitHub/React_estudo/react-nextjs-estudo/src/features/settings/pages/SettingsPage.tsx"],"sourcesContent":["import { SectionPage } from \"../../../app/pages/SectionPage\";\r\n\r\nexport default function SettingsPage() {\r\n  return (\r\n    <SectionPage\r\n      eyebrow=\"PREFERÊNCIAS\"\r\n      title=\"Suas preferências\"\r\n      description=\"Ajuste seu ambiente para trabalhar com mais clareza.\"\r\n    />\r\n  );\r\n}\r\n"],"names":["SettingsPage","SectionPage","eyebrow","title","description"],"mappings":";;;;;;;;;;;;AAEe,SAASA;IACtB,qBACE,8OAACC;QACCC,SAAQ;QACRC,OAAM;QACNC,aAAY;;;;;;AAGlB"}}]
+}

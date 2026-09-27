@@ -1,0 +1,3 @@
+module.exports=[27572,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"pt-BR","data-scroll-behavior":"smooth",children:(0,b.jsx)("body",{children:a})})},"metadata",0,{title:"tarefa. | Organize suas ideias",description:"Um lugar leve para organizar tarefas e compartilhar planos."}])},50645,function(a){a.n(a.i(27572))}];
+
+//# sourceMappingURL=src_app_layout_tsx_0r5yz5t._.js.map

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projetos_GitHub/React_estudo/react-nextjs-estudo/src/app/tasks/page.tsx"],"sourcesContent":["import TasksPageView from \"@/features/tasks/pages/TasksPage\";\r\n\r\nexport default function TasksPage() {\r\n  return <TasksPageView />;\r\n}\r\n"],"names":["TasksPage"],"mappings":";;;;;AAAA;;;AAEe,SAASA;IACtB,qBAAO,8OAAC,0JAAa;;;;;AACvB"}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projetos_GitHub/React_estudo/react-nextjs-estudo/src/features/tasks/pages/TasksPage.tsx"],"sourcesContent":["import { SectionPage } from \"../../../app/pages/SectionPage\";\r\n\r\nexport default function TasksPage() {\r\n  return (\r\n    <SectionPage\r\n      eyebrow=\"TAREFAS\"\r\n      title=\"Suas tarefas\"\r\n      description=\"Organize o que merece sua atenção hoje.\"\r\n    />\r\n  );\r\n}\r\n"],"names":["TasksPage","SectionPage","eyebrow","title","description"],"mappings":";;;;;;;;;;;;AAEe,SAASA;IACtB,qBACE,8OAACC;QACCC,SAAQ;QACRC,OAAM;QACNC,aAAY;;;;;;AAGlB"}}]
+}

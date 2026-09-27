@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projetos_GitHub/React_estudo/react-nextjs-estudo/src/app/home/page.tsx"],"sourcesContent":["import { AppShell } from \"../../shared/components/AppShell\";\r\nimport { HomePageView } from \"../../features/home/pages/HomePage\";\r\n\r\nexport default function HomePage() {\r\n  return (\r\n    <AppShell>\r\n      <HomePageView />\r\n    </AppShell>\r\n  );\r\n}"],"names":["HomePage","HomePageView"],"mappings":";;;;;AAAA;;;;;;;;;AAGe,SAASA;IACtB,qBACE,8OAAC,oJAAQ;kBACP,cAAA,8OAACC;;;;;;;;;;AAGP"}}]
+}
